@@ -1,3 +1,4 @@
+*.o
 *.vcproj
 *.sln
 *.exe
