@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include <string.h>
 #include "hash.h"
 
 using namespace std;
@@ -107,9 +108,9 @@ void FnameFromNum (char filename[], int num)
 {
 	char fext[4];
 	char fname[MAXFN] = "test."; 
-	sprintf_s(fext,"%03x",num);
-	strcat_s(fname,fext);
-	strcpy_s(filename, 20, fname);
+    sprintf(fext,"%03x",num);
+    strcat(fname,fext);
+    strcpy(filename, fname);
 }
 
 void BEFromInt(byte buf[], int num)
