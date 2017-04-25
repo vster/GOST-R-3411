@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip> 
-#include <string>
+#include <cstring>
 #include "main.h"
 
 using namespace std;
