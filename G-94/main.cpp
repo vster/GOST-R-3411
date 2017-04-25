@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <iomanip>
-#include <string.h>
+#include <cstring>
 #include "hash.h"
 
 using namespace std;

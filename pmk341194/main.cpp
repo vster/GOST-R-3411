@@ -5,7 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
-#include <string.h>
+#include <cstring>
 #include "hash.h"
 
 using namespace std;
