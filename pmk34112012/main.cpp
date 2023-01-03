@@ -3,10 +3,11 @@
 #include <iomanip> 
 #include <cstring>
 #include "main.h"
+#define byte unsigned char
 
 using namespace std;
 
-typedef unsigned char byte; // Объявляем тип byte = unsigned char
+// typedef unsigned char byte; // Объявляем тип byte = unsigned char
 
 const int MAXFN = 20;
 const int MAXT = 1000;

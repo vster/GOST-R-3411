@@ -131,7 +131,7 @@ void make_one_test( char fname[], int j, int oidnum )
 
 	len = (int)strlen((char*)TextToHashArray[j]);
 
-	hash((byte*)TextToHashArray[j], len, hashed);
+    hash_g94((byte*)TextToHashArray[j], len, hashed);
     
 	// FnameFromNum ( fname, testnum );		
 	testfile.open( fname, ios::binary );

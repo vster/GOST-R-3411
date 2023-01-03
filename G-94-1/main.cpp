@@ -119,7 +119,7 @@ int main()
 	{
  		len = (int)strlen((char*)TextToHashArray[j]);
 
-		hash((byte*)TextToHashArray[j], len, hashed);
+        hash_g94((byte*)TextToHashArray[j], len, hashed);
     
 		cout << "\nTEST " << j+1 << "\n\n";
 		cout << "Text length  = " << dec << len << " bytes\n\n";
